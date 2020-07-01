@@ -1,0 +1,9 @@
+##surf-image-stitching-system
+##主要参考opensurf的surf实现，主要做了以下几个工作
+1、整理了surf算法流程，使得更加精简，更换了老式的接口iplimage、cvMat为Mat，增加了对齐融合部分，使得拼接完善
+2、做了一个拼接系统的界面
+3、根据拼接特性，框定提取特征的范围，减少无用特征提取，加快速度
+##需要配置opencv2.0以上（提供mat和findHomgraphy）配置qt5.0以上
+##res文件夹是各个头文件和cpp文件以及ui文件
+##imgs文件夹是用到的一些实验图像
+##可实现两张图片的匹配对齐和拼接融合
